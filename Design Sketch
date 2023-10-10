@@ -1,0 +1,61 @@
+Overview
+The agent will be a composite entity, combining visual perception models, large language models (LLMs), and decision-making algorithms to operate autonomously within an MMORPG. The agent will possess a sense of self, governed by a self-referential LLM.
+
+Components
+Visual Perception Layer
+
+1.1 MobileNet for Object Detection: Identifies in-game items, NPCs, and environmental features.
+
+1.2 Preprocessing Module: Standardizes input images for object detection.
+
+Natural Language Understanding Layer
+
+2.1 GPT-4 for Contextual Understanding: Understands game context, interprets visual data, and structures narrative.
+
+2.2 Task-Specific LLMs: Specialized language models for handling specific tasks like combat strategy, inventory management, etc.
+
+Decision-Making Layer
+
+3.1 Reinforcement Learning Module: For game mechanics-based decision-making.
+
+3.2 Executive Function Module: High-level decision-making based on GPT-4's narrative.
+
+Self Model
+
+4.1 Self-Referential LLM: Interprets in-game and internal states to construct a sense of self.
+
+4.2 Memory Buffer: Stores historical states and actions for self-reflection and learning.
+
+Interface Layer
+
+5.1 Game API Interface: Directly interacts with the game's API if available.
+
+5.2 Simulated User Input: Simulates mouse and keyboard inputs for games without an accessible API.
+
+Active Learning Loop
+
+6.1 Data Augmentation: Utilizes LLMs for real-time data augmentation.
+
+6.2 Feedback Mechanism: Incorporates real-time feedback to adapt and optimize behavior.
+
+Data Flow
+Visual Perception -> NLU Layer: MobileNet feeds object detection results to GPT-4 for contextual understanding.
+
+NLU Layer -> Decision-Making Layer: Contextual data is used to make in-game decisions through RL and Executive Function modules.
+
+Decision-Making Layer -> Self Model: Decisions and outcomes update the self model for future reference and learning.
+
+Self Model -> NLU Layer: The Self-Referential LLM provides context and history to GPT-4 for better narrative and decision-making.
+
+Decision-Making Layer -> Interface Layer: Decisions are translated into in-game actions via the interface layer.
+
+Interface Layer -> Active Learning Loop: Captured data and outcomes are used for real-time training and adjustment.
+
+Operational Guidelines
+Modularity: Each component should be modular to allow for individual testing, upgrades, and potential replacement.
+
+Real-Time Operation: The system should be optimized for real-time interaction with the MMORPG.
+
+Scalability: The architecture should be scalable to allow for additional modules or higher complexity as the project evolves.
+
+Self-Awareness: The Self Model is crucial for the agent's long-term learning and adaptation. It should be updated in real-time and be capable of complex self-referential reasoning.
