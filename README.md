@@ -34,5 +34,3 @@ Constructing an autonomous agent for an MMORPG like Everquest that can interact 
     - Continuously update and optimize each module based on real-world performance and new research findings.
 
 Given the architecture and these initial steps, the development process will be inherently iterative, continuously evolving based on both in-game and external data.
-
-Code: 3,5,1,7,4,9,8,6,2,0 (base: 10,9,7)
