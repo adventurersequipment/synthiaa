@@ -1,5 +1,5 @@
 # synthiaa
-Creating an embodied agent for an MMORPG that integrates various elements like visual perception, decision-making, and self-awareness is an ambitious project.
+Creating an embodied agent for an MMORPG that integrates various elements like visual perception, decision-making, and self-awareness.
 
 Phase 1: Infrastructure and Basic Interface
 Game API Interface / Simulated User Input: Develop the most basic interface layer to interact with Everquest. If the game has an API, use it; otherwise, build a program to simulate mouse and keyboard inputs.
